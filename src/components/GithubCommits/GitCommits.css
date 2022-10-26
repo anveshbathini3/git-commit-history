@@ -3,3 +3,30 @@
   text-align: left;
   padding-top: 10px;
 }
+
+.refresh-button {
+  margin: 10px;
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  color: #39739d;
+  cursor: pointer;
+  align-self: flex-end;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  padding: 8px .8em;
+}
+
+.commit-history-header {
+  display: "flex";
+  justify-content: "end";
+}
+
+.commit-history-refresh-label {
+  font-size: "15px";
+  font-weight: "300";
+  align-self: "center";
+}

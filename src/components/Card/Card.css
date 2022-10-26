@@ -7,7 +7,7 @@
     margin: 12px;
   }
 
-.card-section {
+.commit-history-section {
     display: flex;
     flex-direction: column;
     max-width: 85%;

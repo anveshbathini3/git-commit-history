@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import { GithubCommits } from "./components/GithubCommits/GithubCommits";
+import { GitCommits } from "./components/GithubCommits/GitCommits";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <GithubCommits />
+        <GitCommits />
       </header>
     </div>
   );

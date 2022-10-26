@@ -37,7 +37,7 @@ export const GitCommits = () => {
   useEffect(() => {
     const countTimer = setInterval(() => countdown(), 1000);
     return () => clearInterval(countTimer || 0);
-  });
+  },[counter]);
 
   const countdown = () => {
     if (counter === 0) {
@@ -64,7 +64,7 @@ export const GitCommits = () => {
     <div className="commit-history-section">
       <div className="commit-history-header">
         <label className="commit-history-refresh-label">
-          history will get refreshed in <strong>{counter}</strong> seconds
+          History will get refreshed in <strong>{counter}</strong> seconds
         </label>
         <button onClick={onRefreshClick} className="refresh-button">
           Refresh

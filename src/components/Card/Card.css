@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 12px;
+  }
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+  }
+
+.message {
+    font-weight: bold;
+    font-size: 16px;
+    align-self: flex-start;
+}
